@@ -1,0 +1,2 @@
+# Alternative to GitHub Actions: crontab entry on a server (runs 6:00 AM daily)
+0 6 * * * cd /opt/bellhaven-sync && CRM_TOKEN=$(cat /opt/bellhaven-sync/.token) /usr/bin/python3 pipeline.py >> logs/pipeline.log 2>&1

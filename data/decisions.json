@@ -1,0 +1,293 @@
+{
+  "update:001CF3LDWVRGL09P4F:d590b87e35": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "ZIp digits swapped",
+    "decided_at": "2026-11-05 15:08:12Z",
+    "result": [
+      "Stale check OK: Bellhaven of Portsmouth unchanged since snapshot",
+      "Updated 001CF3LDWVRGL09P4F: billing_zip - verified"
+    ]
+  },
+  "chow:001A34WFSUYHCRBLFT:b449ab1a03": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "revenue + AR > 0, SOP: preserve old account, new account + CHOW link",
+    "decided_at": "2026-11-05 15:11:40Z",
+    "result": [
+      "Stale check OK: Bellhaven of Marietta unchanged since snapshot",
+      "Created 0014D1940F8C537EF4 (Bellhaven of Marietta) - verified",
+      "Updated 001A34WFSUYHCRBLFT: chow_current_account - verified"
+    ],
+    "new_id": "0014D1940F8C537EF4"
+  },
+  "reparent:001LGFPBJY4N9MB6KL:e79e1fef2d": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:45:44Z",
+    "result": [
+      "Stale check OK: Bellhaven Crossings of Lima unchanged since snapshot",
+      "Updated 001LGFPBJY4N9MB6KL: parent_id - verified"
+    ]
+  },
+  "reparent:001UKEFGADQ8YCZ4YM:2e666af065": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:45:57Z",
+    "result": [
+      "Stale check OK: Bellhaven Meadows of Findlay unchanged since snapshot",
+      "Updated 001UKEFGADQ8YCZ4YM: parent_id - verified"
+    ]
+  },
+  "reparent:001H1JMVZWP46D5VUF:918819f87f": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:46:04Z",
+    "result": [
+      "Stale check OK: Cedar Trail of Zanesville unchanged since snapshot",
+      "Updated 001H1JMVZWP46D5VUF: name, parent_id - verified"
+    ]
+  },
+  "create:amberly-manor:9bd22c0fb1": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:46:15Z",
+    "result": [
+      "Created 0017FFD914E42CFF7B (Amberly Manor) - verified"
+    ],
+    "new_id": "0017FFD914E42CFF7B"
+  },
+  "create:bellhaven-at-union-square:3be37cf7d0": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:46:33Z",
+    "result": [
+      "Created 0018B361A8954572BC (Bellhaven at Union Square) - verified"
+    ],
+    "new_id": "0018B361A8954572BC"
+  },
+  "create:bellhaven-of-batavia:b3a8586430": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:46:42Z",
+    "result": [
+      "Created 0010C883A0C7D961CA (Bellhaven of Batavia) - verified"
+    ],
+    "new_id": "0010C883A0C7D961CA"
+  },
+  "create:bellhaven-of-carlisle:e726fc8707": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:46:55Z",
+    "result": [
+      "Created 001A38ABC62E891AF8 (Bellhaven of Carlisle) - verified"
+    ],
+    "new_id": "001A38ABC62E891AF8"
+  },
+  "reparent:0016KTS1UAWBRXS09J:0468bf57c4": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:47:20Z",
+    "result": [
+      "Stale check OK: Kettering Nursing & Rehabilitation unchanged since snapshot",
+      "Updated 0016KTS1UAWBRXS09J: name, parent_id - verified"
+    ]
+  },
+  "duplicate:001QU150PM4Z15UA71:8556de5239": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:48:13Z",
+    "result": [
+      "Stale check OK: Bellhaven of Owosso unchanged since snapshot",
+      "Updated 001QU150PM4Z15UA71: duplicate_of_account, status, note - verified"
+    ]
+  },
+  "duplicate:0011AB44D05WLA9HTX:ae19a3fa3d": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:48:28Z",
+    "result": [
+      "Stale check OK: Cedar Trail of Monroe unchanged since snapshot",
+      "Updated 0011AB44D05WLA9HTX: duplicate_of_account, status, note - verified"
+    ]
+  },
+  "duplicate:001JD2MWRA74LTSN24:9f829f1611": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:48:44Z",
+    "result": [
+      "Stale check OK: Harborview Nursing & Rehab of Port Clinton unchanged since snapshot",
+      "Updated 001JD2MWRA74LTSN24: duplicate_of_account, status, note - verified"
+    ]
+  },
+  "duplicate:001BLYF02K97SZLZHH:5829350b59": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:49:04Z",
+    "result": [
+      "Stale check OK: Harborview Shores of Erie unchanged since snapshot",
+      "Updated 001BLYF02K97SZLZHH: duplicate_of_account, status, note - verified"
+    ]
+  },
+  "duplicate:001WR41PYNWXCAE2X4:0ec98466fb": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:49:15Z",
+    "result": [
+      "Stale check OK: Kettering Care Centre unchanged since snapshot",
+      "Updated 001WR41PYNWXCAE2X4: duplicate_of_account, status, note - verified"
+    ]
+  },
+  "duplicate:001B7XZAA3AFALS9GP:639c61cf3a": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:49:21Z",
+    "result": [
+      "Stale check OK: Kettering Senior Campus unchanged since snapshot",
+      "Updated 001B7XZAA3AFALS9GP: duplicate_of_account, status, note - verified"
+    ]
+  },
+  "duplicate:00159PL81N38KM4FHM:bbd8f3a6a9": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:49:28Z",
+    "result": [
+      "Stale check OK: Monroe Gardens Care Center unchanged since snapshot",
+      "Updated 00159PL81N38KM4FHM: duplicate_of_account, status, note - verified"
+    ]
+  },
+  "update:001RJ0D7Z5MAZN5HX5:984fbc9394": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:49:37Z",
+    "result": [
+      "Stale check OK: Bellhaven Health Care Center of Ashland unchanged since snapshot",
+      "Updated 001RJ0D7Z5MAZN5HX5: name - verified"
+    ]
+  },
+  "update:001TZCSTBZFM6K5BGN:f817be9990": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:49:46Z",
+    "result": [
+      "Stale check OK: Bellhaven Rehab and Nursing of Grove City unchanged since snapshot",
+      "Updated 001TZCSTBZFM6K5BGN: name - verified"
+    ]
+  },
+  "update:0017MN2JYAJBDS8WQZ:656f4ebf3a": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:49:52Z",
+    "result": [
+      "Stale check OK: Sunny Acres Retirement Home unchanged since snapshot",
+      "Updated 0017MN2JYAJBDS8WQZ: name - verified"
+    ]
+  },
+  "update:00191H7JR16471SZ34:a49e239734": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:49:56Z",
+    "result": [
+      "Stale check OK: Bellhaven of Sycamore Ridge unchanged since snapshot",
+      "Updated 00191H7JR16471SZ34: name - verified"
+    ]
+  },
+  "update:001NXP9X46CWEPSLSV:e0b0e860a1": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:50:01Z",
+    "result": [
+      "Stale check OK: Bellhaven of Ashtabula unchanged since snapshot",
+      "Updated 001NXP9X46CWEPSLSV: billing_street - verified"
+    ]
+  },
+  "update:001RJU1X4NBWC1Q0G7:4275cbeab1": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:50:06Z",
+    "result": [
+      "Stale check OK: Riverbend Manor Care Center unchanged since snapshot",
+      "Updated 001RJU1X4NBWC1Q0G7: name - verified"
+    ]
+  },
+  "update:0013NUZQHQUEZ8DXEG:eb0ad0e8b8": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:50:08Z",
+    "result": [
+      "Stale check OK: Chesterton Senior Commons unchanged since snapshot",
+      "Updated 0013NUZQHQUEZ8DXEG: name - verified"
+    ]
+  },
+  "not_on_website:00116ETS45BL7DTQP7:0192b8ad8a": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:50:13Z",
+    "result": [
+      "Stale check OK: Bellhaven Care Center of Alliance unchanged since snapshot",
+      "Updated 00116ETS45BL7DTQP7: status, note - verified"
+    ]
+  },
+  "not_on_website:0016PVXH4B25HWR7QE:ad24ac7a6c": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-05 15:50:16Z",
+    "result": [
+      "Stale check OK: Bellhaven of Coldwater unchanged since snapshot",
+      "Updated 0016PVXH4B25HWR7QE: status, note - verified"
+    ]
+  },
+  "chow_existing:001SXSF4ELF0Z2LGDM:428aa51705": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "",
+    "decided_at": "2026-11-06 14:38:43Z",
+    "result": [
+      "Stale check OK: Bellhaven of Sandusky unchanged since snapshot",
+      "Updated 001SXSF4ELF0Z2LGDM: chow_current_account - verified"
+    ]
+  },
+  "chow:001U6RW32TY0WSXZZB:c016a0e089": {
+    "decision": "approved",
+    "reviewer": "Drashtant",
+    "comment": "Revenue + AR > 0; new account + CHOW link",
+    "decided_at": "2026-11-06 15:08:14Z",
+    "result": [
+      "Stale check OK: Bellhaven of Tiffin unchanged since snapshot",
+      "Created 001EDD9C2B3142B064 (Bellhaven of Tiffin) - verified",
+      "Updated 001U6RW32TY0WSXZZB: chow_current_account - verified"
+    ],
+    "new_id": "001EDD9C2B3142B064"
+  },
+  "update:0010KJFP601YNTZVDA:70f765d7bc": {
+    "decision": "rejected",
+    "reviewer": "Drashtant",
+    "comment": "Only 'The' and dash is the issue, which is cosmetic",
+    "decided_at": "2026-11-06 15:08:59Z",
+    "result": []
+  }
+}

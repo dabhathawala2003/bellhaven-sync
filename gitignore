@@ -1,0 +1,8 @@
+# secrets
+.env
+# daily snapshots/outputs are regenerated each run
+data/*
+explore/
+# ...but the decision log IS the memory that makes re-runs safe, so keep it
+!data/decisions.json
+__pycache__/
