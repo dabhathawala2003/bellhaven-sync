@@ -1,0 +1,33 @@
+# Runs the pipeline every day. It only READS the website + CRM and builds the
+# review queue. It never writes to the CRM - writes need a human Approve click.
+name: Daily Bellhaven CRM sync
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 11:00 UTC = 6-7 AM Eastern, before reps start
+  workflow_dispatch:       # "Run workflow" button for manual runs
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4          # brings data/decisions.json -> already-decided items are skipped
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run pipeline (scrape -> CRM snapshot -> match -> queue)
+        run: python pipeline.py
+        env:
+          CRM_TOKEN: ${{ secrets.CRM_TOKEN }}   # stored as a GitHub secret, never in code
+
+      - name: Save review queue
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-queue
+          path: |
+            data/queue.json
+            data/proposals.json
